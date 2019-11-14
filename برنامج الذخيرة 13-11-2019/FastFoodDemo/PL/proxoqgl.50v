@@ -1,0 +1,265 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using AxZKFPEngXControl;
+using System.IO;
+namespace FastFoodDemo.PL
+{
+    public partial class FORM_SEARCH_MEM_BY_FINGER : Form
+    {
+        BL.MEMBER_CLS MEM = new BL.MEMBER_CLS();
+        private AxZKFPEngX ZkFprint = new AxZKFPEngX();
+        private bool Check;
+        bool result;
+        string PERSON;
+        BL.EXPORT_CLS EX = new BL.EXPORT_CLS();
+        public FORM_SEARCH_MEM_BY_FINGER()
+        {
+            InitializeComponent();
+        }
+        private void InitialAxZkfp()
+        {
+            try
+            {
+
+                ZkFprint.OnImageReceived += zkFprint_OnImageReceived;
+                ZkFprint.OnFeatureInfo += zkFprint_OnFeatureInfo;
+                //zkFprint.OnFingerTouching 
+                //zkFprint.OnFingerLeaving
+             //   ZkFprint.OnEnroll += zkFprint_OnEnroll;
+
+                if (ZkFprint.InitEngine() == 0)
+                {
+                    ZkFprint.FPEngineVersion = "9";
+                    ZkFprint.EnrollCount = 3;
+                    // deviceSerial.Text += " " + ZkFprint.SensorSN + " Count: " + ZkFprint.SensorCount.ToString() + " Index: " + ZkFprint.SensorIndex.ToString();
+                    // ShowHintInfo("Device successfully connected");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Device init err, error: " + ex.Message);
+            }
+        }
+        private void zkFprint_OnImageReceived(object sender, IZKFPEngXEvents_OnImageReceivedEvent e)
+        {
+            Graphics g = fpicture.CreateGraphics();
+            Bitmap bmp = new Bitmap(fpicture.Width, fpicture.Height);
+            g = Graphics.FromImage(bmp);
+            int dc = g.GetHdc().ToInt32();
+            ZkFprint.PrintImageAt(dc, 0, 0, bmp.Width, bmp.Height);
+            g.Dispose();
+            fpicture.Image = bmp;
+        }
+
+        private void zkFprint_OnFeatureInfo(object sender, IZKFPEngXEvents_OnFeatureInfoEvent e)
+        {
+
+            String strTemp = string.Empty;
+            if (ZkFprint.EnrollIndex != 1)
+            {
+                if (ZkFprint.IsRegister)
+                {
+                    if (ZkFprint.EnrollIndex - 1 > 0)
+                    {
+                        int eindex = ZkFprint.EnrollIndex - 1;
+                        strTemp = "Please scan again ..." + eindex;
+                    }
+                }
+            }
+           // MessageBox.Show(strTemp);
+        }
+
+        //هاد تابتع البحث عن الشخص حسب البصمة بقاعدة البيانات
+        private void zkFprint_OnCapture(object sender, IZKFPEngXEvents_OnCaptureEvent e)
+        {
+            txtTemplate.Clear();
+            string template = ZkFprint.EncodeTemplate1(e.aTemplate);
+
+            DataTable dt_Finger = EX.GET_ALL_FINGER_FOR_ADD();
+            result = false;
+            PERSON = "0";
+
+            for (int i = 0; i < dt_Finger.Rows.Count; i++)
+            {
+                if (ZkFprint.VerFingerFromStr(ref template, dt_Finger.Rows[i][3].ToString(), false, ref Check))
+                {
+                    result = true;
+                    PERSON = dt_Finger.Rows[i][1].ToString();
+                    break;
+                }
+                if (!ZkFprint.VerFingerFromStr(ref template, dt_Finger.Rows[i][3].ToString(), false, ref Check))
+                {
+                    result = false;
+                    PERSON = "0";
+                }
+            }
+            if (result == true)
+            {
+             //  MessageBox.Show("البصمة المُدخلة موجودة");
+                DGVMEM.DataSource = EX.GET_MEMBER_BY_FINGER(PERSON);
+                DGVMEM.Columns[1].Visible = false;
+                DGVMEM.Columns[16].Visible = false;
+                DGVMEM.Columns[17].Visible = false;
+                DGVMEM.Columns[18].Visible = false;
+                LBLCOUNTFIN.ForeColor = Color.White;
+                LBLCOUNTFIN.Text = "موجود";
+
+            }
+            else
+            {
+                DGVMEM.DataSource = null;
+                LBLCOUNTFIN.ForeColor = Color.Red;
+                LBLCOUNTFIN.Text = "غير موجود";
+
+               // MessageBox.Show("البصمة المُدخلة لا تعود لأي عنصر");
+                return;
+            }
+
+        }
+
+
+
+
+        private void FORM_SEARCH_MEM_BY_FINGER_Load(object sender, EventArgs e)
+        {
+            Controls.Add(ZkFprint);
+            InitialAxZkfp();
+        }
+
+        private void BTNSEARCH_Click(object sender, EventArgs e)
+        {
+            //if (Program.STATE == 1)
+            //{
+            //    ZkFprint.BeginCapture();
+            //    BTNSEARCH.Enabled = false;
+            //    MessageBox.Show("قم بإدخال البصمة");
+            //}
+            //if (Program.STATE == 0)
+            //{
+                if (ZkFprint.IsRegister)
+                {
+                    ZkFprint.CancelEnroll();
+                }
+                ZkFprint.OnCapture += zkFprint_OnCapture;
+                ZkFprint.BeginCapture();
+                BTNSEARCH.Enabled = false;
+                MessageBox.Show("قم بإدخال البصمة");
+                Program.STATE = 1;
+           // }
+
+        }
+
+        private void DGVMEM_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            for (int i = 0; i < DGVMEM.Rows.Count; i++)
+            {
+                if (DGVMEM.Rows[i].Index % 2 == 0)
+                {
+                    DGVMEM.Rows[i].DefaultCellStyle.BackColor = Color.FromArgb(171, 125, 47);
+                }
+            }
+        }
+
+        private void DGVMEM_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BTNEDIT_Click(object sender, EventArgs e)
+        {
+            PL.FORM_EDIT_MEM FRM = new FORM_EDIT_MEM();
+            FRM.ShowDialog();
+        }
+
+        private void BTNPRINTMEM_Click(object sender, EventArgs e)
+        {
+            DataSet DS = new DataSet();
+            DataTable DT_REPORT = new DataTable();
+            DataTable DT_MEM_DETALIES = MEM.GET_MEM_DETALIES_FOR_PRINT(DGVMEM.CurrentRow.Cells[0].Value.ToString());
+            DataTable DT_IMG = MEM.GET_MEM_IMG_FOR_PRINT(DGVMEM.CurrentRow.Cells[0].Value.ToString());
+
+            if (DT_IMG.Rows.Count == 0)
+            {
+                MemoryStream ms = new MemoryStream();
+                pictureBox1.Image.Save(ms, pictureBox1.Image.RawFormat);
+                byte[] byteimage = ms.ToArray();
+
+                DT_REPORT.Columns.Add("اللقب", typeof(System.Byte[]));
+
+                foreach (DataGridViewRow dgv in DGVMEM.Rows)
+                {
+                    DT_REPORT.Rows.Add(byteimage);
+                }
+                DS.Tables.Add(DT_REPORT);
+                DS.Tables.Add(DT_MEM_DETALIES);
+                DS.WriteXmlSchema("C:\\AraratProgramFiles\\SampleMEMTABLEPIC.xml");
+
+                RPT.FRM_RPT frm = new RPT.FRM_RPT();
+                RPT.RPT_MEM_DETALIES report = new RPT.RPT_MEM_DETALIES();
+
+                report.Refresh();
+                report.SetDataSource(DS);
+
+                frm.crystalReportViewer1.ReportSource = report;
+
+
+                frm.ShowDialog();
+
+                MEM.ADD_LOG(Program.APP_IDEN, Program.USER_IDEN, "طباعة", "طباعة تفاصيل العنصر : " + DGVMEM.CurrentRow.Cells[3].Value.ToString(), DateTime.Now);
+                pictureBox1.Image = FastFoodDemo.Properties.Resources.a2z2;
+                return;
+            }
+            if (DT_IMG.Rows.Count > 0)
+            {
+                string PATH = DT_IMG.Rows[0][0].ToString();
+                //OpenFileDialog OP = new OpenFileDialog();
+                //OP.InitialDirectory = PATH;
+                //if (OP.ShowDialog() == DialogResult.OK)
+                //{
+                //    this.Cursor = Cursors.WaitCursor;
+
+                pictureBox1.Image = Image.FromFile(PATH);
+
+                MemoryStream msS = new MemoryStream();
+                pictureBox1.Image.Save(msS, pictureBox1.Image.RawFormat);
+                byte[] byteimageS = msS.ToArray();
+
+                DT_REPORT.Columns.Add("اللقب", typeof(System.Byte[]));
+
+
+
+                foreach (DataGridViewRow dgv in DGVMEM.Rows)
+                {
+                    DT_REPORT.Rows.Add(byteimageS);
+                }
+                DS.Tables.Add(DT_REPORT);
+                DS.Tables.Add(DT_MEM_DETALIES);
+                DS.WriteXmlSchema("C:\\AraratProgramFiles\\SampleMEMTABLEPIC.xml");
+
+                RPT.FRM_RPT frmS = new RPT.FRM_RPT();
+                RPT.RPT_MEM_DETALIES reportS = new RPT.RPT_MEM_DETALIES();
+
+                reportS.Refresh();
+                reportS.SetDataSource(DS);
+
+                frmS.crystalReportViewer1.ReportSource = reportS;
+
+
+                frmS.ShowDialog();
+                this.Cursor = Cursors.Default;
+
+                MEM.ADD_LOG(Program.APP_IDEN, Program.USER_IDEN, "طباعة", "طباعة تفاصيل العنصر : " + DGVMEM.CurrentRow.Cells[3].Value.ToString(), DateTime.Now);
+                pictureBox1.Image = FastFoodDemo.Properties.Resources.a2z2;
+
+            }
+        }
+    }
+}

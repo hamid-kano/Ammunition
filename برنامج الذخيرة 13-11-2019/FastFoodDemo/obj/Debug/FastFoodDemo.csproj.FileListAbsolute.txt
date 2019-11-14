@@ -1,0 +1,285 @@
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\Ammunition.exe.config
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\Ammunition.pdb
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelFile.net.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelLibrary.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\FlashControlV71.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\NPOI.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\NPOI.OOXML.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\Interop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\stdole.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.pdb
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelFile.net.pdb
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\ExcelFile.net.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\bin\Debug\NPOI.xml
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csprojAssemblyReference.cache
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ACTION_LOG.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_NEW_MEMBER.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_DOCS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_BACKUP.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EXPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_ROW.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FAOJ.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FORCE.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP_DETAILS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IQLIM.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CATEGORY.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CONFSCATION.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_MAIN1.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_DELETED.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAHS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAH_CHANGE.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ORDERS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_MNG.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_GHANAEM.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_CATIGORY.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_TABUR_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SOURCE.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_KTEBA.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOAA.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOGIN.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MANTKA.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DELETED.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES_DELETED.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MY_PROFILE.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RECYCLEBIN.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RESTORE.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SETTING.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_SILAH.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_USERS.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_USERS_Actions.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.RPT.FRM_RPT.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ar.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ku.resources
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.GenerateResource.cache
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CoreCompileInputs.cache
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CopyComplete
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\ذخيرة 12-11-2019\Program\FastFoodDemo\obj\Debug\Ammunition.pdb
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\Ammunition.exe.config
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\Ammunition.pdb
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelFile.net.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelLibrary.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\FlashControlV71.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\NPOI.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\NPOI.OOXML.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\Interop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\stdole.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.pdb
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelFile.net.pdb
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\ExcelFile.net.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\bin\Debug\NPOI.xml
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csprojAssemblyReference.cache
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ACTION_LOG.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_NEW_MEMBER.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_DOCS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_BACKUP.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EXPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_ROW.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FAOJ.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FORCE.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP_DETAILS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IQLIM.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CATEGORY.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CONFSCATION.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_MAIN1.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_DELETED.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAHS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAH_CHANGE.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ORDERS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_MNG.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_GHANAEM.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_CATIGORY.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_TABUR_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SOURCE.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_KTEBA.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOAA.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOGIN.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MANTKA.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DELETED.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES_DELETED.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MY_PROFILE.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RECYCLEBIN.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RESTORE.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SETTING.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_SILAH.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_USERS.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_USERS_Actions.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.RPT.FRM_RPT.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ar.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ku.resources
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.GenerateResource.cache
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CoreCompileInputs.cache
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CopyComplete
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\New folder\Program\FastFoodDemo\obj\Debug\Ammunition.pdb
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\Ammunition.exe.config
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\Ammunition.pdb
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelFile.net.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelLibrary.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\NPOI.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\NPOI.OOXML.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\Interop.ZKFPEngXControl.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\stdole.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.pdb
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelFile.net.pdb
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\ExcelFile.net.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\bin\Debug\NPOI.xml
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.csprojAssemblyReference.cache
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ACTION_LOG.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_NEW_MEMBER.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ADD_DOCS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_BACKUP.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EXPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_EDIT_ROW.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMPORT_DATA.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FAOJ.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_FORCE.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP_DETAILS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IMP_EXP.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_IQLIM.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CATEGORY.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_CONFSCATION.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_MAIN1.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_DELETED.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAHS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_SILAH_CHANGE.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_ORDERS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_MNG.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_GHANAEM.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_CATIGORY.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_TABUR_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SOURCE.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_KTEBA.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOAA.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_LOGIN.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MANTKA.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DELETED.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MEM_DETALIES_DELETED.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_MY_PROFILE.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RECYCLEBIN.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_RESTORE.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SETTING.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_SILAH_MNG.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_SILAH.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_STATISTIC_MEMBERS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.PL.FORM_USERS.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.FORM_USERS_Actions.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.RPT.FRM_RPT.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ar.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.lang.Resource.ku.resources
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.GenerateResource.cache
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CoreCompileInputs.cache
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\ar\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\ku\Ammunition.resources.dll
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\FastFoodDemo.csproj.CopyComplete
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\Ammunition.exe
+C:\Users\Abo Reda\Desktop\برنامج الذخيرة 12-11-2019\FastFoodDemo\obj\Debug\Ammunition.pdb

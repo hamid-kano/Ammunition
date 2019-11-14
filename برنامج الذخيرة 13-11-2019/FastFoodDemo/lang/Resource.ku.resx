@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="اختيار النسخة" xml:space="preserve">
+    <value>Dosyakê hilbijêre</value>
+  </data>
+  <data name="اختيار ملف" xml:space="preserve">
+    <value>Pelê hilbijêrin</value>
+  </data>
+  <data name="اخرى" xml:space="preserve">
+    <value>Her Wekî Din</value>
+  </data>
+  <data name="ادارة الاسلحة" xml:space="preserve">
+    <value>Depoya Sîlahan</value>
+  </data>
+  <data name="ادارة الاصناف" xml:space="preserve">
+    <value>Cûreyên Sîlah</value>
+  </data>
+  <data name="ادارة التفاصيل" xml:space="preserve">
+    <value>Hûrguliyên rêvebirin</value>
+  </data>
+  <data name="ادارة الصادر و الوارد" xml:space="preserve">
+    <value>Derxistin û Hatin</value>
+  </data>
+  <data name="ادارة بيانات المقاتلين" xml:space="preserve">
+    <value>Rêvebirina Daneyên Şervanan</value>
+  </data>
+  <data name="استعادة" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="استعادة العنصر المحدد مع كامل بياناته" xml:space="preserve">
+    <value>Navê Hilbijartî Tevî Hemû Daneyên Wî Vegerîne</value>
+  </data>
+  <data name="استعادة النسخ الاحتياطي" xml:space="preserve">
+    <value>Kopya Yedek Vegerîne</value>
+  </data>
+  <data name="استيراد البيانات" xml:space="preserve">
+    <value>Hatina</value>
+  </data>
+  <data name="اسلحة المقاتل" xml:space="preserve">
+    <value>Silahê Şervan</value>
+  </data>
+  <data name="اسم الاب" xml:space="preserve">
+    <value>Navê Bav</value>
+  </data>
+  <data name="اسم الاقليم" xml:space="preserve">
+    <value>Navê Herêmê</value>
+  </data>
+  <data name="اسم الام" xml:space="preserve">
+    <value>Navê Dayik</value>
+  </data>
+  <data name="اسم الجهة" xml:space="preserve">
+    <value>Navê Cih</value>
+  </data>
+  <data name="اسم الفوج" xml:space="preserve">
+    <value>Navê Alay</value>
+  </data>
+  <data name="اسم الكتيبة" xml:space="preserve">
+    <value>Navê Battalion</value>
+  </data>
+  <data name="اسم اللواء" xml:space="preserve">
+    <value>Navê brigade</value>
+  </data>
+  <data name="اسم المستخدم" xml:space="preserve">
+    <value>Navê bikarhêner</value>
+  </data>
+  <data name="اسم المنطقة" xml:space="preserve">
+    <value>Navê Navçe</value>
+  </data>
+  <data name="اصناف الاسلحة" xml:space="preserve">
+    <value>Cûreyên Sîlah</value>
+  </data>
+  <data name="اضافة" xml:space="preserve">
+    <value>Zêdekirin</value>
+  </data>
+  <data name="اضافة اسلحة اخرى" xml:space="preserve">
+    <value>Otherekên din zêde bikin</value>
+  </data>
+  <data name="اضافة اقليم" xml:space="preserve">
+    <value>Herêm zêde bikin</value>
+  </data>
+  <data name="اضافة رخصة السلاح" xml:space="preserve">
+    <value>Ruxseta Sîlah Derbas Bike</value>
+  </data>
+  <data name="اضافة صورة مقاتل" xml:space="preserve">
+    <value>Wêneyê Şervan Derbas Bike</value>
+  </data>
+  <data name="اضافة فوج" xml:space="preserve">
+    <value>Regiment zêde bikin</value>
+  </data>
+  <data name="اضافة لواء" xml:space="preserve">
+    <value>Zêdekirin</value>
+  </data>
+  <data name="اضافة مقاتل" xml:space="preserve">
+    <value>Zêdekirina Şervan</value>
+  </data>
+  <data name="اضافة منطقة" xml:space="preserve">
+    <value>Navçezêde bikin</value>
+  </data>
+  <data name="اضافة وثائق" xml:space="preserve">
+    <value>Dosiya</value>
+  </data>
+  <data name="الاسلحة" xml:space="preserve">
+    <value>Silah</value>
+  </data>
+  <data name="الاسم" xml:space="preserve">
+    <value>Navê Rast</value>
+  </data>
+  <data name="الاسم الثلاثي" xml:space="preserve">
+    <value>Nav û Paşnav</value>
+  </data>
+  <data name="الاصناف" xml:space="preserve">
+    <value>Cureyen Silah</value>
+  </data>
+  <data name="الاعدادات" xml:space="preserve">
+    <value>Şîfreya</value>
+  </data>
+  <data name="الافواج" xml:space="preserve">
+    <value>Alay</value>
+  </data>
+  <data name="الاقاليم" xml:space="preserve">
+    <value>Herem</value>
+  </data>
+  <data name="الاقليم" xml:space="preserve">
+    <value>Herêm</value>
+  </data>
+  <data name="الالوية" xml:space="preserve">
+    <value>Tugay</value>
+  </data>
+  <data name="التاريخ" xml:space="preserve">
+    <value>Dîrok</value>
+  </data>
+  <data name="التفاصيل" xml:space="preserve">
+    <value>Kîtekît</value>
+  </data>
+  <data name="التقارير" xml:space="preserve">
+    <value>Rapor dike</value>
+  </data>
+  <data name="التقارير 1" xml:space="preserve">
+    <value>Repor 1</value>
+  </data>
+  <data name="التقارير 2" xml:space="preserve">
+    <value>Repor 2</value>
+  </data>
+  <data name="الجنس" xml:space="preserve">
+    <value>Zayend</value>
+  </data>
+  <data name="الجهات" xml:space="preserve">
+    <value>Aliyên din</value>
+  </data>
+  <data name="الجهة المرسلة" xml:space="preserve">
+    <value>Cihê Şandiye</value>
+  </data>
+  <data name="الجهة المستقبلة" xml:space="preserve">
+    <value>Cihê Girtiye</value>
+  </data>
+  <data name="الرئيسية" xml:space="preserve">
+    <value>Serrûpela</value>
+  </data>
+  <data name="السلاح" xml:space="preserve">
+    <value>Sîlah</value>
+  </data>
+  <data name="الصادر و الوارد" xml:space="preserve">
+    <value>Derxistin û Hatin</value>
+  </data>
+  <data name="الطلبات" xml:space="preserve">
+    <value>Daxwaz</value>
+  </data>
+  <data name="العمليات" xml:space="preserve">
+    <value>Operasiyon</value>
+  </data>
+  <data name="العناصر" xml:space="preserve">
+    <value>Şervan</value>
+  </data>
+  <data name="العناصر المحذوفة" xml:space="preserve">
+    <value>Tiştên hatine jêbirin</value>
+  </data>
+  <data name="الغنائم" xml:space="preserve">
+    <value>Xenîmetê Şer</value>
+  </data>
+  <data name="الفوج" xml:space="preserve">
+    <value>Alay</value>
+  </data>
+  <data name="القوائم" xml:space="preserve">
+    <value>Listeyan</value>
+  </data>
+  <data name="القوات" xml:space="preserve">
+    <value>Hêz</value>
+  </data>
+  <data name="القوة" xml:space="preserve">
+    <value>Hêz</value>
+  </data>
+  <data name="القومية" xml:space="preserve">
+    <value>Netew</value>
+  </data>
+  <data name="الكتائب" xml:space="preserve">
+    <value>Tabûr</value>
+  </data>
+  <data name="الكتيبة" xml:space="preserve">
+    <value>Tabûr</value>
+  </data>
+  <data name="الكل" xml:space="preserve">
+    <value>Giştî</value>
+  </data>
+  <data name="الكمية" xml:space="preserve">
+    <value>Miqdar</value>
+  </data>
+  <data name="الكمية الجديدة" xml:space="preserve">
+    <value>Miqdarê Nû</value>
+  </data>
+  <data name="الكمية القديمة" xml:space="preserve">
+    <value>Miqdarê Kevin</value>
+  </data>
+  <data name="الكنية" xml:space="preserve">
+    <value>Paşnavê Rast</value>
+  </data>
+  <data name="اللقب و الكنية" xml:space="preserve">
+    <value>Nav û Paşnavê Kod</value>
+  </data>
+  <data name="اللواء" xml:space="preserve">
+    <value>Tûgay</value>
+  </data>
+  <data name="المحذوف" xml:space="preserve">
+    <value>Jêbirin</value>
+  </data>
+  <data name="المحذوفات" xml:space="preserve">
+    <value>Dosyayên Hatine Jêbirin</value>
+  </data>
+  <data name="المستخدمين" xml:space="preserve">
+    <value>Bikarhêner</value>
+  </data>
+  <data name="المصادرات" xml:space="preserve">
+    <value>Desteserkirin</value>
+  </data>
+  <data name="المضمون" xml:space="preserve">
+    <value>Naverok</value>
+  </data>
+  <data name="المكان" xml:space="preserve">
+    <value>Cihê</value>
+  </data>
+  <data name="المكان الحالي" xml:space="preserve">
+    <value>Cihê Niha</value>
+  </data>
+  <data name="الملف الشخصي" xml:space="preserve">
+    <value>Profîl</value>
+  </data>
+  <data name="المناطق" xml:space="preserve">
+    <value>Eyalet</value>
+  </data>
+  <data name="المنطقة" xml:space="preserve">
+    <value>Eyalet</value>
+  </data>
+  <data name="الموجود في المستودع" xml:space="preserve">
+    <value>Sîlahan li Depoya Heyi</value>
+  </data>
+  <data name="الموديل" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="النسخ الاحتياطي" xml:space="preserve">
+    <value>Kopya Yedek</value>
+  </data>
+  <data name="النوع" xml:space="preserve">
+    <value>Cûre</value>
+  </data>
+  <data name="الواحدة" xml:space="preserve">
+    <value>Yekîneya Pîvanê</value>
+  </data>
+  <data name="الوارد و الصادر من المستودع" xml:space="preserve">
+    <value>Nav û derde ji wargehê</value>
+  </data>
+  <data name="الى" xml:space="preserve">
+    <value>Ji bo</value>
+  </data>
+  <data name="الى تاريخ" xml:space="preserve">
+    <value>Ji bo mêjû</value>
+  </data>
+  <data name="بحث" xml:space="preserve">
+    <value>Lêgerîn</value>
+  </data>
+  <data name="بحث عام" xml:space="preserve">
+    <value>Lêgerîna Giştî</value>
+  </data>
+  <data name="بيانات السلاح الشخصي" xml:space="preserve">
+    <value>Daneyên Sîlaha Şexsî</value>
+  </data>
+  <data name="تاريخ الولادة" xml:space="preserve">
+    <value>Dîroka Dayikbûnê</value>
+  </data>
+  <data name="تاكيد" xml:space="preserve">
+    <value>Qebûlkirin</value>
+  </data>
+  <data name="تاكيد كلمة المرور" xml:space="preserve">
+    <value>Şîfreya piştrast bike</value>
+  </data>
+  <data name="تبديل اسلحة المقاتل" xml:space="preserve">
+    <value>Sîlahê Şervan Bugherîne</value>
+  </data>
+  <data name="تحديث" xml:space="preserve">
+    <value>Rojanekirin</value>
+  </data>
+  <data name="تحديد الجدول" xml:space="preserve">
+    <value>Maseyê hilbijêrin</value>
+  </data>
+  <data name="تصدير البيانات" xml:space="preserve">
+    <value>Derxistin</value>
+  </data>
+  <data name="تصدير واستيراد السلاح" xml:space="preserve">
+    <value>Derketin Û Hatina Sîlah</value>
+  </data>
+  <data name="تعديل" xml:space="preserve">
+    <value>Rastkirin</value>
+  </data>
+  <data name="تعديل البيانات" xml:space="preserve">
+    <value>Rastkirina Daneyan</value>
+  </data>
+  <data name="تعديل الكمية في السطر المحدد" xml:space="preserve">
+    <value>Miqdar Di Xeta Hilbijartî De Bugherîne</value>
+  </data>
+  <data name="تعديل رخصة السلاح" xml:space="preserve">
+    <value>Ruxseta Sîlah Bugherîne</value>
+  </data>
+  <data name="تعديل صورة مقاتل" xml:space="preserve">
+    <value>Wêneyê Şervan Bugherîne</value>
+  </data>
+  <data name="تعديل كلمة المرور" xml:space="preserve">
+    <value>Sererastkirina Şîfre</value>
+  </data>
+  <data name="تفاصيل" xml:space="preserve">
+    <value>Ziravî</value>
+  </data>
+  <data name="جديد" xml:space="preserve">
+    <value>Nû</value>
+  </data>
+  <data name="حذف" xml:space="preserve">
+    <value>Jêbirin</value>
+  </data>
+  <data name="حذف العنصر المحدد بشكل نهائي" xml:space="preserve">
+    <value>Navê Hilbijartî Bi Giştî Jêbibe</value>
+  </data>
+  <data name="حذف الكل بشكل نهائي" xml:space="preserve">
+    <value>Hemûyan Jêbibe</value>
+  </data>
+  <data name="حسب الاقليم" xml:space="preserve">
+    <value>Li Gorî Herem</value>
+  </data>
+  <data name="حسب التاريخ" xml:space="preserve">
+    <value>Li Gor Dîrok</value>
+  </data>
+  <data name="حسب الفوج" xml:space="preserve">
+    <value>Li Gorî Alay</value>
+  </data>
+  <data name="حسب القوات" xml:space="preserve">
+    <value>Li Gorî Hêz</value>
+  </data>
+  <data name="حسب القوة" xml:space="preserve">
+    <value>Li Gorî Hêz</value>
+  </data>
+  <data name="حسب الكتيبة" xml:space="preserve">
+    <value>Li Gorî Tabur</value>
+  </data>
+  <data name="حسب اللواء" xml:space="preserve">
+    <value>Li Gorî Tugay</value>
+  </data>
+  <data name="حسب المنطقة" xml:space="preserve">
+    <value>Li Gorî Eyalet</value>
+  </data>
+  <data name="حفظ التغييرات" xml:space="preserve">
+    <value>Qeydkirin</value>
+  </data>
+  <data name="خروج" xml:space="preserve">
+    <value>Derketin</value>
+  </data>
+  <data name="دمج الكلمتين" xml:space="preserve">
+    <value>Du peyvikên hev bikin</value>
+  </data>
+  <data name="رقم الاقليم" xml:space="preserve">
+    <value>Numara Herêmê</value>
+  </data>
+  <data name="رقم البطاقة" xml:space="preserve">
+    <value>Numara Nasnamê</value>
+  </data>
+  <data name="رقم الجهة" xml:space="preserve">
+    <value>Numara Cih</value>
+  </data>
+  <data name="رقم السلاح الشخصي" xml:space="preserve">
+    <value>Numara Sîlaha Şexsî</value>
+  </data>
+  <data name="رقم الفوج" xml:space="preserve">
+    <value>Numara Alay</value>
+  </data>
+  <data name="رقم الكتيبة" xml:space="preserve">
+    <value>Hejmara Battalion</value>
+  </data>
+  <data name="رقم اللواء" xml:space="preserve">
+    <value>Hejmara brigade</value>
+  </data>
+  <data name="رقم المقاتل" xml:space="preserve">
+    <value>Numara Şervan</value>
+  </data>
+  <data name="رقم المنطقة" xml:space="preserve">
+    <value>Hejmara Navçe</value>
+  </data>
+  <data name="رمز التطبيق" xml:space="preserve">
+    <value>Îkonê serîlêdanê</value>
+  </data>
+  <data name="سلة المحذوفات" xml:space="preserve">
+    <value>Dosyayên Hatine Jêbirin</value>
+  </data>
+  <data name="صادر" xml:space="preserve">
+    <value>Derketin</value>
+  </data>
+  <data name="طباعة" xml:space="preserve">
+    <value>Çapkirin</value>
+  </data>
+  <data name="طباعة الجدول" xml:space="preserve">
+    <value>Çapkirina Tabloyê</value>
+  </data>
+  <data name="طباعة المقاتل المحدد" xml:space="preserve">
+    <value>Çapkirina Şervanê Hilbijartî</value>
+  </data>
+  <data name="طلب سلاح" xml:space="preserve">
+    <value>Daxwazê Sîlah</value>
+  </data>
+  <data name="طلب عوائل الشهداء" xml:space="preserve">
+    <value>Daxwazê Malbatê Şehîdan</value>
+  </data>
+  <data name="عدد الجعب" xml:space="preserve">
+    <value>Hejmara Rext</value>
+  </data>
+  <data name="عدد الطلقات" xml:space="preserve">
+    <value>Hejmara Gûleyan</value>
+  </data>
+  <data name="عدد القنابل" xml:space="preserve">
+    <value>Hejmara Bombe</value>
+  </data>
+  <data name="عدد المخازن" xml:space="preserve">
+    <value>Hejmara Şarjûran</value>
+  </data>
+  <data name="فتح" xml:space="preserve">
+    <value>Pêşdîtin</value>
+  </data>
+  <data name="قائمة الاسلحة" xml:space="preserve">
+    <value>Lîsteya Sîlahan</value>
+  </data>
+  <data name="قائمة التصدير - التوريد" xml:space="preserve">
+    <value>Lîsteya Derketin û Hatin</value>
+  </data>
+  <data name="قائمة المقاتلين" xml:space="preserve">
+    <value>Lîsteya Şervanan</value>
+  </data>
+  <data name="قوائمة الكتائب" xml:space="preserve">
+    <value>Lîsteyan</value>
+  </data>
+  <data name="كادر" xml:space="preserve">
+    <value>Cadr</value>
+  </data>
+  <data name="كلمة المرور" xml:space="preserve">
+    <value>Passwordîfre</value>
+  </data>
+  <data name="كلمة المرور الجديدة" xml:space="preserve">
+    <value>Şîfreya nû</value>
+  </data>
+  <data name="كلمة المرور الحالية" xml:space="preserve">
+    <value>Şîfreya kevin</value>
+  </data>
+  <data name="محلي" xml:space="preserve">
+    <value>Herêmî</value>
+  </data>
+  <data name="محلي - كادر" xml:space="preserve">
+    <value>Herêmî - Kadro</value>
+  </data>
+  <data name="مستخدموا البرنامج" xml:space="preserve">
+    <value>Bikarhînerê Bernameyê</value>
+  </data>
+  <data name="مسترد" xml:space="preserve">
+    <value>Hatiye Vegerandin</value>
+  </data>
+  <data name="مستودع الاسلحة" xml:space="preserve">
+    <value>Depoya Sîlahan</value>
+  </data>
+  <data name="معاينة" xml:space="preserve">
+    <value>Pêşdîtin</value>
+  </data>
+  <data name="معاينة - عرض" xml:space="preserve">
+    <value>Pêşdîtin</value>
+  </data>
+  <data name="مكان الحصول على الغنيمة" xml:space="preserve">
+    <value>Cihê Xenîmet Jê Hatiye Girtin</value>
+  </data>
+  <data name="مكان الحفظ" xml:space="preserve">
+    <value>Cihê hilînin</value>
+  </data>
+  <data name="مكان الولادة" xml:space="preserve">
+    <value>Cihê Dayikbûnê</value>
+  </data>
+  <data name="ملاحظات" xml:space="preserve">
+    <value>Têbînî</value>
+  </data>
+  <data name="من" xml:space="preserve">
+    <value>Ji</value>
+  </data>
+  <data name="من تاريخ" xml:space="preserve">
+    <value>Ji mêjû</value>
+  </data>
+  <data name="من نحن" xml:space="preserve">
+    <value>Em Kîne</value>
+  </data>
+  <data name="موقع الفوج" xml:space="preserve">
+    <value>Cihê Alay</value>
+  </data>
+  <data name="موقع الكتيبة" xml:space="preserve">
+    <value>Malpera Battalion</value>
+  </data>
+  <data name="موقع اللواء" xml:space="preserve">
+    <value>Malpera brigade</value>
+  </data>
+  <data name="نشاطات المستخدمين" xml:space="preserve">
+    <value>Çalakiyên Bikarhêneran</value>
+  </data>
+  <data name="نوع الاحصائية" xml:space="preserve">
+    <value>Cûreyê Bîlanço</value>
+  </data>
+  <data name="نوع التقرير" xml:space="preserve">
+    <value>Cûreyê Raporê</value>
+  </data>
+  <data name="نوع الطلب" xml:space="preserve">
+    <value>Cûreyê Daxwazê</value>
+  </data>
+  <data name="نوع الغنيمة" xml:space="preserve">
+    <value>Cûreyê Xenîmetê</value>
+  </data>
+  <data name="نوع المصادرة" xml:space="preserve">
+    <value>Cûreyê Desteserkirinê</value>
+  </data>
+  <data name="هل يملك سلاح شخصي" xml:space="preserve">
+    <value>Sîlahê Şexsî Heye?</value>
+  </data>
+  <data name="وارد" xml:space="preserve">
+    <value>Hatin</value>
+  </data>
+  <data name="وارد من خارج قسد" xml:space="preserve">
+    <value>Ji Dervî QSD Hatiye</value>
+  </data>
+  <data name="وثائق المقاتل" xml:space="preserve">
+    <value>Dosiya Şervan</value>
+  </data>
+  <data name="وحدة القياس" xml:space="preserve">
+    <value>Yekîneya Pîvanê</value>
+  </data>
+</root>

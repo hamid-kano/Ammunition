@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FastFoodDemo</RootNamespace>
+    <AssemblyName>Ammunition</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>أيقونة البرنامج.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ZKFPEngXControl, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HT.AxInterop.ZKFPEngXControl.4.0.0.0\lib\AxInterop.ZKFPEngXControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AxInterop.ZKFPEngXControl.4.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\AxInterop.ZKFPEngXControl.4.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\zoe\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="ExcelDataReader">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelFile.net">
+      <HintPath>..\packages\ExcelFile.net.1.2.0\lib\net45\ExcelFile.net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\packages\ExcelLibrary.1.2011.7.31\lib\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="GemBox.Spreadsheet">
+      <HintPath>..\packages\GemBox.Spreadsheet.45.0.0.1000\lib\net35\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet.WinFormsUtilities">
+      <HintPath>..\packages\GemBox.Spreadsheet.WinFormsUtilities.45.0.0.1000\lib\net35\GemBox.Spreadsheet.WinFormsUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NPOI">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\packages\NPOI.2.2.1\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CONFSCATION.cs" />
+    <Compile Include="BL\SPOILS.cs" />
+    <Compile Include="BL\ORDERS.cs" />
+    <Compile Include="BL\ALAY_CLS.cs" />
+    <Compile Include="BL\COPORATION_CLS.cs" />
+    <Compile Include="BL\DELETED_CLS.cs" />
+    <Compile Include="BL\EXPORT_CLS.cs" />
+    <Compile Include="BL\EYALET_CLS.cs" />
+    <Compile Include="BL\MEM_SILAH.cs" />
+    <Compile Include="BL\HEREM_CLS.cs" />
+    <Compile Include="BL\MEMBER_CLS.cs" />
+    <Compile Include="BL\SILAH_CLS .cs" />
+    <Compile Include="BL\SOURC_CLS.cs" />
+    <Compile Include="BL\TABUR_CLS.cs" />
+    <Compile Include="BL\TABUR_SIALH_CLS.cs" />
+    <Compile Include="BL\TUGAY_CLS.cs" />
+    <Compile Include="BL\USERS_CLS.cs" />
+    <Compile Include="BL\STATISTIC_CLS.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\FORM_ACTION_LOG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ACTION_LOG.Designer.cs">
+      <DependentUpon>FORM_ACTION_LOG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_EDIT_MEMBERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_EDIT_MEMBERS.Designer.cs">
+      <DependentUpon>FORM_EDIT_MEMBERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_NEW_MEMBER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_NEW_MEMBER.Designer.cs">
+      <DependentUpon>FORM_ADD_NEW_MEMBER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_DOCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ADD_DOCS.Designer.cs">
+      <DependentUpon>FORM_ADD_DOCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_BACKUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_BACKUP.Designer.cs">
+      <DependentUpon>FORM_BACKUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_EXPORT_DATA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_EXPORT_DATA.Designer.cs">
+      <DependentUpon>FORM_EXPORT_DATA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_EDIT_ROW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_EDIT_ROW.Designer.cs">
+      <DependentUpon>FORM_EDIT_ROW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_IMPORT_DATA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_IMPORT_DATA.Designer.cs">
+      <DependentUpon>FORM_IMPORT_DATA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_FAOJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_FAOJ.Designer.cs">
+      <DependentUpon>FORM_FAOJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_FORCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_FORCE.Designer.cs">
+      <DependentUpon>FORM_FORCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_IMP_EXP_DETAILS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_IMP_EXP_DETAILS.Designer.cs">
+      <DependentUpon>FORM_IMP_EXP_DETAILS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_IMP_EXP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_IMP_EXP.Designer.cs">
+      <DependentUpon>FORM_IMP_EXP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_IQLIM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_IQLIM.Designer.cs">
+      <DependentUpon>FORM_IQLIM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_CATEGORY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_CATEGORY.Designer.cs">
+      <DependentUpon>FORM_CATEGORY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_CONFSCATION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_CONFSCATION.Designer.cs">
+      <DependentUpon>FORM_CONFSCATION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MAIN.Designer.cs">
+      <DependentUpon>FORM_MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_DELETED.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_DELETED.Designer.cs">
+      <DependentUpon>FORM_SILAH_DELETED.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_SILAHS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_SILAHS.Designer.cs">
+      <DependentUpon>FORM_MEM_SILAHS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_SILAH_CHANGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_SILAH_CHANGE.Designer.cs">
+      <DependentUpon>FORM_MEM_SILAH_CHANGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_ORDERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_ORDERS.Designer.cs">
+      <DependentUpon>FORM_ORDERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_MNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_MNG.Designer.cs">
+      <DependentUpon>FORM_MEM_MNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_GHANAEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_GHANAEM.Designer.cs">
+      <DependentUpon>FORM_GHANAEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_CATIGORY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_CATIGORY.Designer.cs">
+      <DependentUpon>FORM_SILAH_CATIGORY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_TABUR_SILAH_MNG .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_TABUR_SILAH_MNG .Designer.cs">
+      <DependentUpon>FORM_TABUR_SILAH_MNG .cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_SOURCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_SOURCE.Designer.cs">
+      <DependentUpon>FORM_SOURCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_KTEBA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_KTEBA.Designer.cs">
+      <DependentUpon>FORM_KTEBA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_LOAA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_LOAA.Designer.cs">
+      <DependentUpon>FORM_LOAA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_LOGIN.Designer.cs">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MANTKA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MANTKA.Designer.cs">
+      <DependentUpon>FORM_MANTKA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DELETED.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DELETED.Designer.cs">
+      <DependentUpon>FORM_MEM_DELETED.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DETALIES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DETALIES.Designer.cs">
+      <DependentUpon>FORM_MEM_DETALIES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DETALIES_DELETED.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MEM_DETALIES_DELETED.Designer.cs">
+      <DependentUpon>FORM_MEM_DETALIES_DELETED.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_MY_PROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_MY_PROFILE.Designer.cs">
+      <DependentUpon>FORM_MY_PROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_RECYCLEBIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_RECYCLEBIN.Designer.cs">
+      <DependentUpon>FORM_RECYCLEBIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_RESTORE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_RESTORE.Designer.cs">
+      <DependentUpon>FORM_RESTORE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_SETTING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_SETTING.Designer.cs">
+      <DependentUpon>FORM_SETTING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_MNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_SILAH_MNG.Designer.cs">
+      <DependentUpon>FORM_SILAH_MNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_STATISTIC_SILAH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_STATISTIC_SILAH.Designer.cs">
+      <DependentUpon>FORM_STATISTIC_SILAH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_STATISTIC_MEMBERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_STATISTIC_MEMBERS.Designer.cs">
+      <DependentUpon>FORM_STATISTIC_MEMBERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_USERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_USERS.Designer.cs">
+      <DependentUpon>FORM_USERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FORM_USERS_Actions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FORM_USERS_Actions.Designer.cs">
+      <DependentUpon>FORM_USERS_Actions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\FORM_PRINT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\FORM_PRINT.Designer.cs">
+      <DependentUpon>FORM_PRINT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\RPT_EXISTING_SILAH.cs">
+      <DependentUpon>RPT_EXISTING_SILAH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_ALL_SILAH.cs">
+      <DependentUpon>RPT_ALL_SILAH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_EXISTING_NAME_SILAH.cs">
+      <DependentUpon>RPT_EXISTING_NAME_SILAH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_DETALIES_EXIST1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_DETALIES_EXIST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_WAREHOUSE_SILAH.cs">
+      <DependentUpon>RPT_WAREHOUSE_SILAH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_CAT_SILAH_NAME.cs">
+      <DependentUpon>RPT_CAT_SILAH_NAME.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_CAT_SILAH.cs">
+      <DependentUpon>RPT_CAT_SILAH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\RPT_ALL_MEM_IN_IQLIM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ALL_MEM_IN_IQLIM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_ALL_MEM_IN_SOURCE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_ALL_MEM_IN_SOURCE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_EXPORT_DOCS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_EXPORT_DOCS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_IMG.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_IMG.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_DETALIES.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_DETALIES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_DETALIES_FROM_GATH.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_DETALIES_FROM_GATH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_BLOOD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_BLOOD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_CIVILIAN.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_CIVILIAN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_GENDER.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_GENDER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_MEM_TYPE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_MEM_TYPE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_STATUS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_STATUS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_IN_IQLIM_BY_UNIVERSITY.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_IN_IQLIM_BY_UNIVERSITY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_PUNI_BETWEEN_2DATES.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_PUNI_BETWEEN_2DATES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_REWARD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_REWARD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_REWARD_BETWEEN_2DATES.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_REWARD_BETWEEN_2DATES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_MEM_TABLE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_MEM_TABLE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\RPT_PUNI_MEM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPT_PUNI_MEM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Resources\001.png" />
+    <None Include="Resources\minimaze01.png" />
+    <None Include="Resources\power01.png" />
+    <None Include="Resources\twitter01.png" />
+    <None Include="Resources\اقونة كتم الصوت.png" />
+    <None Include="Resources\ايقونة الصوت.png" />
+    <None Include="Resources\facebook.png" />
+    <Content Include="أيقونة البرنامج.ico" />
+    <None Include="Resources\PICFINQSD23232.png" />
+    <None Include="Resources\fıgn02.png" />
+    <None Include="Resources\refresh %282%29.png" />
+    <None Include="Resources\دكتور.jpg" />
+    <None Include="Resources\pro-icon10.png" />
+    <None Include="Resources\alikari.png" />
+    <Content Include="syria_map_icon01_EQV_icon.ico" />
+    <None Include="Resources\a2z2.png" />
+    <None Include="Resources\LOGO_OPS.png" />
+    <None Include="Resources\ZCVXBZ.jpg" />
+    <None Include="Resources\Mem_AraraTt.jpg" />
+    <EmbeddedResource Include="lang\Resource.ar.resx" />
+    <EmbeddedResource Include="lang\Resource.ku.resx" />
+    <EmbeddedResource Include="PL\FORM_ACTION_LOG.resx">
+      <DependentUpon>FORM_ACTION_LOG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_EDIT_MEMBERS.resx">
+      <DependentUpon>FORM_EDIT_MEMBERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_ADD_NEW_MEMBER.resx">
+      <DependentUpon>FORM_ADD_NEW_MEMBER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_ADD_DOCS.resx">
+      <DependentUpon>FORM_ADD_DOCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_BACKUP.resx">
+      <DependentUpon>FORM_BACKUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_EXPORT_DATA.resx">
+      <DependentUpon>FORM_EXPORT_DATA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_EDIT_ROW.resx">
+      <DependentUpon>FORM_EDIT_ROW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_IMPORT_DATA.resx">
+      <DependentUpon>FORM_IMPORT_DATA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_FAOJ.resx">
+      <DependentUpon>FORM_FAOJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_FORCE.resx">
+      <DependentUpon>FORM_FORCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_IMP_EXP_DETAILS.resx">
+      <DependentUpon>FORM_IMP_EXP_DETAILS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_IMP_EXP.resx">
+      <DependentUpon>FORM_IMP_EXP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_IQLIM.resx">
+      <DependentUpon>FORM_IQLIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_CATEGORY.resx">
+      <DependentUpon>FORM_CATEGORY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_CONFSCATION.resx">
+      <DependentUpon>FORM_CONFSCATION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MAIN.resx">
+      <DependentUpon>FORM_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_SILAH_DELETED.resx">
+      <DependentUpon>FORM_SILAH_DELETED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_SILAHS.resx">
+      <DependentUpon>FORM_MEM_SILAHS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_SILAH_CHANGE.resx">
+      <DependentUpon>FORM_MEM_SILAH_CHANGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_ORDERS.resx">
+      <DependentUpon>FORM_ORDERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_MNG.resx">
+      <DependentUpon>FORM_MEM_MNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_GHANAEM.resx">
+      <DependentUpon>FORM_GHANAEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_SILAH_CATIGORY.resx">
+      <DependentUpon>FORM_SILAH_CATIGORY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_TABUR_SILAH_MNG .resx">
+      <DependentUpon>FORM_TABUR_SILAH_MNG .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_SOURCE.resx">
+      <DependentUpon>FORM_SOURCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_KTEBA.resx">
+      <DependentUpon>FORM_KTEBA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_LOAA.resx">
+      <DependentUpon>FORM_LOAA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_LOGIN.resx">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MANTKA.resx">
+      <DependentUpon>FORM_MANTKA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_DELETED.resx">
+      <DependentUpon>FORM_MEM_DELETED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_DETALIES.resx">
+      <DependentUpon>FORM_MEM_DETALIES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MEM_DETALIES_DELETED.resx">
+      <DependentUpon>FORM_MEM_DETALIES_DELETED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_MY_PROFILE.resx">
+      <DependentUpon>FORM_MY_PROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_RECYCLEBIN.resx">
+      <DependentUpon>FORM_RECYCLEBIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_RESTORE.resx">
+      <DependentUpon>FORM_RESTORE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_SETTING.resx">
+      <DependentUpon>FORM_SETTING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_SILAH_MNG.resx">
+      <DependentUpon>FORM_SILAH_MNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_STATISTIC_SILAH.resx">
+      <DependentUpon>FORM_STATISTIC_SILAH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_STATISTIC_MEMBERS.resx">
+      <DependentUpon>FORM_STATISTIC_MEMBERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_USERS.resx">
+      <DependentUpon>FORM_USERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FORM_USERS_Actions.resx">
+      <DependentUpon>FORM_USERS_Actions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\FORM_PRINT.resx">
+      <DependentUpon>FORM_PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_EXISTING_SILAH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_EXISTING_SILAH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ALL_SILAH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ALL_SILAH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_EXISTING_NAME_SILAH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_EXISTING_NAME_SILAH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_DETALIES_EXIST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_DETALIES_EXIST1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_WAREHOUSE_SILAH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_WAREHOUSE_SILAH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_CAT_SILAH_NAME.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_CAT_SILAH_NAME.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_CAT_SILAH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_CAT_SILAH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ALL_MEM_IN_IQLIM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ALL_MEM_IN_IQLIM.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_ALL_MEM_IN_SOURCE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ALL_MEM_IN_SOURCE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_EXPORT_DOCS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_EXPORT_DOCS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_IMG.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_IMG.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_DETALIES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_DETALIES.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_DETALIES_FROM_GATH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_DETALIES_FROM_GATH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_BLOOD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_BLOOD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_CIVILIAN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_CIVILIAN.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_GENDER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_GENDER.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_MEM_TYPE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_MEM_TYPE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_STATUS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_STATUS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_IN_IQLIM_BY_UNIVERSITY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_IN_IQLIM_BY_UNIVERSITY.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_PUNI_BETWEEN_2DATES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_PUNI_BETWEEN_2DATES.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_REWARD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_REWARD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_REWARD_BETWEEN_2DATES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_REWARD_BETWEEN_2DATES.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_MEM_TABLE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MEM_TABLE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\RPT_PUNI_MEM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_PUNI_MEM.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DENG021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\نشاطات المستخدمين.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كليشة حزب الاتحاد الديمقراطي 02jbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كليشة حزب الاتحاد الديمقراطيjbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erwrere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo ıcon 01.ico" />
+    <None Include="Resources\zey88.png" />
+    <None Include="Resources\ZEY.jpg" />
+    <None Include="Resources\thumb-350-309675.jpg" />
+    <None Include="Resources\Z.png" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\ZZ.png" />
+    <None Include="Resources\Mem_Ararat.wav" />
+    <None Include="Resources\emeliyateltedwir01.png" />
+    <None Include="Resources\elmewadeltalıfa01.png" />
+    <None Include="Resources\eltedwer01.png" />
+    <None Include="Resources\eljerd01.png" />
+    <None Include="Resources\newaqıs02.png" />
+    <None Include="Resources\newaqıs01.png" />
+    <None Include="Resources\hereketelshehriye02.png" />
+    <None Include="Resources\hereketelshehriye01.png" />
+    <None Include="Resources\hesebelcıha01.png" />
+    <None Include="Resources\hedır02.png" />
+    <None Include="Resources\hedır01.png" />
+    <None Include="Resources\muxrecat01.png" />
+    <None Include="Resources\mudxelatmng01.png" />
+    <None Include="Resources\mewad02.png" />
+    <None Include="Resources\move01.png" />
+    <None Include="Resources\mewad01.png" />
+    <None Include="Resources\inport03.png" />
+    <None Include="Resources\inport02.png" />
+    <None Include="Resources\inport01.png" />
+    <None Include="Resources\exp03.png" />
+    <None Include="Resources\exp02.png" />
+    <None Include="Resources\exp01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

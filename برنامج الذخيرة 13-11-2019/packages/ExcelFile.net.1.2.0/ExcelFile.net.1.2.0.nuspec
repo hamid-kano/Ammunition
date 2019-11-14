@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ExcelFile.net</id>
+    <version>1.2.0</version>
+    <title>ExcelFile.net</title>
+    <authors>yaoyao</authors>
+    <owners>yaoyao</owners>
+    <licenseUrl>https://github.com/plantain-00/ExcelFile.net/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/plantain-00/ExcelFile.net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An excel file writer and reader based on NPOI.</description>
+    <summary />
+    <tags>NPOI Excel</tags>
+    <dependencies>
+      <dependency id="NPOI" version="2.2.1" />
+    </dependencies>
+  </metadata>
+</package>
