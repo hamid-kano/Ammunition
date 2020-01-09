@@ -51,8 +51,9 @@ namespace FastFoodDemo.PL
             DGV_TUGAY.DataSource = TUGAY.GET_ALL_TUGAY();
             DGV_TUGAY.Columns[0].Visible = false;
             DGV_TUGAY.Columns[1].Visible = false;
+            DGV_TUGAY.Columns[6].Visible = false;
             DGV_TUGAY.Columns[7].Visible = false;
-            DGV_TUGAY.Columns[8].Visible = false;
+            //DGV_TUGAY.Columns[8].Visible = false;
             BTN_EDIT.Enabled = false;
             BTN_DELETE.Enabled = false;
             CBOX_EYALET.Enabled = false;
